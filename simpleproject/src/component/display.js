@@ -15,7 +15,8 @@ const Display = () => {
         dispatch(gettingDataFromServer(nextval));
     },[nextval])
 
-
+   console.log("Hello");
+   
       let nextpage=()=>{
          setNextVal(nextval+5);
          //dispatch(gettingDataFromServer(nextval));
